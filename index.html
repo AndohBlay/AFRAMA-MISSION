@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aframa Mission School</title>
+    <link rel="stylesheet" href="./SRC/main.css" />
+    <link rel="shortcut icon" href="./Images/logo.jpg" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./Images/logo.jpg" width="40px" alt="School Logo" />
+                </a>
+            </div>
+
+            <!-- Nav Links -->
+            <div class="NavLinks" id="navLinks">
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#team"><i class="fa-solid fa-user"></i> Our Management Team</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                    <li><a href="#news"><i class="fa-solid fa-newspaper"></i> News and Articles</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="JoinUs">
+                <button id="joinUsBtn">JOIN US</button>
+            </div>
+
+            <!-- Menu Bar (Mobile) -->
+            <div class="menuBar" id="menuBar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home" data-aos="fade-up" data-aos-duration="1000">
+            <h2 data-aos="zoom-in">Welcome to Aframa Mission School</h2>
+            <p>
+                Excellence in education, character development, and holistic growth. 
+                We nurture young minds to become future leaders through innovative 
+                teaching methods and a supportive learning environment.
+            </p>
+            <div class="hero-buttons">
+                <button class="cta-btn">Call Us Now</button>
+                <button class="cta-btn secondary">Apply Today</button>
+            </div>
+        </section>
+
+        <!-- Academics Section -->
+        <section class="Academics-box">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <i class="fa-solid fa-right-to-bracket fa-3x"></i>
+                <h3><a href="#">APPLY ONLINE</a></h3>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                <i class="fa-solid fa-calendar-alt fa-3x"></i>
+                <h3><a href="#">ACADEMIC CALENDAR</a></h3>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+                <i class="fa-solid fa-sack-dollar fa-3x"></i>
+                <h3><a href="#">FEE STRUCTURE</a></h3>
+            </div>
+        </section>
+
+        <!-- Management Team -->
+        <section id="team" class="management">
+            <h3 data-aos="zoom-in">Our Management Team</h3>
+            <div class="team-container">
+                <div data-aos="flip-left" data-aos-duration="1000">
+                    <img src="./Images/principal 1.jpg" alt="Principal" />
+                    <h4>Mr. John Doe</h4>
+                    <p>The Principal</p>
+                    <button type="button">Read More</button>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="./Images/principal 2.jpg" alt="Head Teacher" />
+                    <h4>Mrs. Cecile</h4>
+                    <p>The Head Teacher</p>
+                    <button type="button">Read More</button>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+                    <img src="./Images/principal 4.jpg" alt="Head of Academics" />
+                    <h4>Mr. Kuffour</h4>
+                    <p>The Head of Academics</p>
+                    <button type="button">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="About" id="about">
+            <div class="about-title">
+                <h3 data-aos="zoom-in">What Makes Us Unique?</h3>
+            </div>
+            <div class="about-box">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="800">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Holistic education approach</li>
+                        <li><i class="fas fa-check-circle"></i> Qualified & experienced staff</li>
+                        <li><i class="fas fa-check-circle"></i> Modern learning facilities</li>
+                        <li><i class="fas fa-check-circle"></i> Character development programs</li>
+                        <li><i class="fas fa-check-circle"></i> Extracurricular activities</li>
+                        <li><i class="fas fa-check-circle"></i> Safe & nurturing environment</li>
+                        <li><i class="fas fa-check-circle"></i> Parent-teacher collaboration</li>
+                    </ul>
+                </div>
+                <div class="about-video" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <p>School Virtual Tour</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="form-section" data-aos="fade-in" data-aos-duration="1000">
+            <div class="form-container">
+                <h1>Send Us a Message <i class="fa-solid fa-message"></i></h1>
+                <form action="/submit-contact" method="post">
+                    <div class="form-group" data-aos="fade-right" data-aos-delay="100">
+                        <label for="name">Enter Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Kwasi Montgomary" required />
+                    </div>
+                    <div class="form-group" data-aos="fade-right" data-aos-delay="200">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="yaw@gmail.com" required />
+                    </div>
+                    <div class="form-group" data-aos="fade-right" data-aos-delay="300">
+                        <label for="level">Class Level</label>
+                        <input type="text" id="level" name="level" placeholder="Primary 2" required />
+                    </div>
+                    <div class="form-group" data-aos="fade-right" data-aos-delay="400">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-aos="zoom-in" data-aos-delay="500">
+                        Submit <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./Images/logo.jpg" alt="Aframa Mission School Logo" />
+                <h4>Aframa Mission School</h4>
+            </div>
+            
+            <div class="social-links">
+                <div class="social-item">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <p>Facebook</p>
+                </div>
+                <div class="social-item">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <p>LinkedIn</p>
+                </div>
+                <div class="social-item">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                    <p>Instagram</p>
+                </div>
+                <div class="social-item">
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                    <p>Twitter</p>
+                </div>
+            </div>
+            
+            <div class="footer-info">
+                <p><i class="fas fa-copyright"></i> Copyright 2025 © All Rights Reserved</p>
+                <p>Aframa Mission School</p>
+                <p><i class="fas fa-phone"></i> +233 XX XXX XXXX</p>
+                <p><i class="fas fa-envelope"></i> info@aframaschool.edu.gh</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false,
+            duration: 800,
+        });
+        
+        // Mobile menu toggle
+        document.getElementById('menuBar').addEventListener('click', function() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside on mobile
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            const menuBar = document.getElementById('menuBar');
+            
+            if (window.innerWidth <= 800) {
+                if (!navLinks.contains(event.target) && !menuBar.contains(event.target)) {
+                    navLinks.classList.remove('active');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
