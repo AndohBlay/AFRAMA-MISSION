@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -31,7 +33,7 @@
             </div>
 
             <div class="JoinUs">
-                <button id="joinUsBtn">JOIN US</button>
+                <button id="joinUsBtn" onclick="window.location.href='admissions.html'">JOIN US</button>
             </div>
 
             <!-- Menu Bar (Mobile) -->
@@ -48,21 +50,23 @@
         <section class="hero" id="home" data-aos="fade-up" data-aos-duration="1000">
             <h2 data-aos="zoom-in">Welcome to Aframa Mission School</h2>
             <p>
-                Excellence in education, character development, and holistic growth. 
-                We nurture young minds to become future leaders through innovative 
+                Excellence in education, character development, and holistic growth.
+                We nurture young minds to become future leaders through innovative
                 teaching methods and a supportive learning environment.
             </p>
             <div class="hero-buttons">
-                <button class="cta-btn">Call Us Now</button>
-                <button class="cta-btn secondary">Apply Today</button>
-            </div>
+                <div class="hero-buttons">
+                    <button class="cta-btn" onclick="window.location.href='admissions.html'">Call Us Now</button>
+                    <button class="cta-btn secondary" onclick="window.location.href='admissions.html'">Apply
+                        Today</button>
+                </div>
         </section>
 
         <!-- Academics Section -->
         <section class="Academics-box">
             <div data-aos="fade-right" data-aos-duration="1000">
                 <i class="fa-solid fa-right-to-bracket fa-3x"></i>
-                <h3><a href="#">APPLY ONLINE</a></h3>
+                <h3><a href="admissions.html">APPLY ONLINE</a></h3>
             </div>
             <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                 <i class="fa-solid fa-calendar-alt fa-3x"></i>
@@ -79,7 +83,7 @@
             <h3 data-aos="zoom-in">Our Management Team</h3>
             <div class="team-container">
                 <div data-aos="flip-left" data-aos-duration="1000">
-                <img src="./Images/principal 1.jpg" alt="Principal" />
+                    <img src="./Images/principal 1.jpg" alt="Principal" />
                     <h4>Mr. John Doe</h4>
                     <p>The Principal</p>
                     <button type="button">Read More</button>
@@ -125,71 +129,80 @@
             </div>
             <br>
 
-                        <!-- News and Articles -->
-                        <section class="news-articles" id="news" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
-                                <div class="articles-container">
+            <!-- News and Articles -->
+            <section class="news-articles" id="news" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+                <div class="articles-container">
 
-                                        <!-- Group / Category CTA (optional) -->
-                                        <div class="articles-group">
-                                                <a href="#" aria-label="More news">More News & Articles</a>
-                                        </div>
+                    <!-- Group / Category CTA (optional) -->
+                    <div class="articles-group">
+                        <a href="#" aria-label="More news">More News & Articles</a>
+                    </div>
 
-                                        <!-- Article 1 -->
-                                        <article class="article-card" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Article 1 -->
+                    <article class="article-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="media">
                             <img src="./Images/blog2.jpg" alt="Students working on STEAM project" loading="lazy">
                         </div>
-                                                <div class="article-content">
-                                                        <h4><a href="https://www.unesco.org/en/articles/why-early-childhood-care-and-education-matters">Learning beyond the Books: Our New STEAM Initiative</a></h4>
-                                                        <div class="meta">Sept 2026 • School News</div>
-                                                        <p>The classroom walls are coming down! We are thrilled to launch our new S.T.E.A.M. initiative this semester — hands-on problem-solving and creative thinking across disciplines.</p>
-                                                        <a class="read-more" href="#" aria-label="Read more about STEAM" role="button">Read more</a>
-                                                </div>
-                                        </article>
+                        <div class="article-content">
+                            <h4><a
+                                    href="https://www.unesco.org/en/articles/why-early-childhood-care-and-education-matters">Learning
+                                    beyond the Books: Our New STEAM Initiative</a></h4>
+                            <div class="meta">Sept 2026 • School News</div>
+                            <p>The classroom walls are coming down! We are thrilled to launch our new S.T.E.A.M.
+                                initiative this semester — hands-on problem-solving and creative thinking across
+                                disciplines.</p>
+                            <a class="read-more" href="#" aria-label="Read more about STEAM" role="button">Read more</a>
+                        </div>
+                    </article>
 
-                                        <!-- Article 2 -->
-                                        <article class="article-card" data-aos="fade-up" data-aos-delay="200">
-                                                <div class="media">
-                                                    <img src="./Images/blog3.jpg" alt="Student council community outreach" loading="lazy">
-                                                </div>
-                                                <div class="article-content">
-                                                        <h4><a href="#">A Day in The Life: Student Council Host Community Outreach</a>HEADER</h4>
-                                                        <div class="meta">Aug 2026 • Community</div>
-                                                        <p>Our students showed leadership and compassion organizing an outreach event collecting donations for a local cause. They learned logistics, public speaking and civic responsibility.</p>
-                                                        <a class="read-more" href="#" aria-label="Read more about outreach" role="button">Read more</a>
-                                                </div>
-                                        </article>
+                    <!-- Article 2 -->
+                    <article class="article-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="media">
+                            <img src="./Images/blog3.jpg" alt="Student council community outreach" loading="lazy">
+                        </div>
+                        <div class="article-content">
+                            <h4><a href="#">A Day in The Life: Student Council Host Community Outreach</a>HEADER</h4>
+                            <div class="meta">Aug 2026 • Community</div>
+                            <p>Our students showed leadership and compassion organizing an outreach event collecting
+                                donations for a local cause. They learned logistics, public speaking and civic
+                                responsibility.</p>
+                            <a class="read-more" href="#" aria-label="Read more about outreach" role="button">Read
+                                more</a>
+                        </div>
+                    </article>
 
-                                </div>
-                        </section>
-        
-        <!-- Contact Form -->
-        <section id="contact" class="form-section" data-aos="fade-in" data-aos-duration="1000">
-            <div class="form-container">
-                <h1>Send Us a Message <i class="fa-solid fa-message"></i></h1>
-                <form action="/submit-contact" method="post">
-                    <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                        <label for="name">Enter Full Name</label>
-                        <input type="text" id="name" name="name" placeholder="Kwasi Montgomary" required />
-                    </div>
-                    <div class="form-group" data-aos="fade-right" data-aos-delay="200">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="yaw@gmail.com" required />
-                    </div>
-                    <div class="form-group" data-aos="fade-right" data-aos-delay="300">
-                        <label for="level">Class Level</label>
-                        <input type="text" id="level" name="level" placeholder="Primary 2" required />
-                    </div>
-                    <div class="form-group" data-aos="fade-right" data-aos-delay="400">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
-                    </div>  <br>
-                    <button type="submit" class="submit-btn" data-aos="zoom-in" data-aos-delay="500">
-                        Submit <i class="fa-solid fa-paper-plane"></i>
-                    </button>
-                </form>
-            </div>
-        </section>
+                </div>
+            </section>
+
+
+            <!-- Contact Form -->
+            <section id="contact" class="form-section" data-aos="fade-in" data-aos-duration="1000">
+                <div class="form-container">
+                    <h1>Send Us a Message <i class="fa-solid fa-message"></i></h1>
+                    <form id="contactForm">
+                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
+                            <label for="name">Enter Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Kwasi Montgomary" required />
+                        </div>
+                        <div class="form-group" data-aos="fade-right" data-aos-delay="200">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="yaw@gmail.com" required />
+                        </div>
+                        <div class="form-group" data-aos="fade-right" data-aos-delay="300">
+                            <label for="level">Class Level</label>
+                            <input type="text" id="level" name="level" placeholder="Primary 2" required />
+                        </div>
+                        <div class="form-group" data-aos="fade-right" data-aos-delay="400">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..."
+                                required></textarea>
+                        </div> <br>
+                        <button type="submit" class="submit-btn" data-aos="zoom-in" data-aos-delay="500">
+                            Submit <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
     </main>
 
     <!-- Footer -->
@@ -199,26 +212,26 @@
                 <img src="./Images/logo.jpg" alt="Aframa Mission School Logo" />
                 <h4>Aframa Mission School</h4>
             </div>
-            
+
             <div class="social-links">
                 <div class="social-item">
                     <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
-                
+
                 </div>
                 <div class="social-item">
                     <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
-                
+
                 </div>
                 <div class="social-item">
                     <a href="#" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
-                    
+
                 </div>
                 <div class="social-item">
                     <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
-                    
+
                 </div>
             </div>
-            
+
             <div class="footer-info">
                 <p><i class="fas fa-copyright"></i> Copyright 2025 © All Rights Reserved</p>
                 <p>Aframa Mission School</p>
@@ -229,31 +242,130 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
+    <script type="module">
+        import { supabase, submitContactForm, subscribeNewsletter, getSchoolUpdates } from './config.js';
+
+        // Initialize AOS
         AOS.init({
             once: false,
             duration: 800,
         });
-        
+
         // Mobile menu toggle
-        document.getElementById('menuBar').addEventListener('click', function() {
-            const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('active');
-        });
-        
+        const menuBar = document.getElementById('menuBar');
+        const navLinks = document.getElementById('navLinks');
+
+        if (menuBar) {
+            menuBar.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        }
+
         // Close menu when clicking outside on mobile
-        document.addEventListener('click', function(event) {
-            const navLinks = document.getElementById('navLinks');
-            const menuBar = document.getElementById('menuBar');
-            
+        document.addEventListener('click', function (event) {
             if (window.innerWidth <= 800) {
-                if (!navLinks.contains(event.target) && !menuBar.contains(event.target)) {
+                if (navLinks && !navLinks.contains(event.target) && !menuBar.contains(event.target)) {
                     navLinks.classList.remove('active');
                 }
             }
         });
+
+        // Handle Contact Form Submission with Supabase
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+
+                // Get form values
+                const name = document.getElementById('name')?.value;
+                const email = document.getElementById('email')?.value;
+                const level = document.getElementById('level')?.value;
+                const message = document.getElementById('message')?.value;
+
+                // Get or create status div
+                let statusDiv = document.getElementById('formStatus');
+                if (!statusDiv) {
+                    statusDiv = document.createElement('div');
+                    statusDiv.id = 'formStatus';
+                    contactForm.appendChild(statusDiv);
+                }
+
+                statusDiv.innerHTML = '<p style="color: blue;">Sending message...</p>';
+
+                try {
+                    const result = await submitContactForm({ name, email, level, message });
+                    statusDiv.innerHTML = '<p style="color: green;">✓ Message sent successfully! We\'ll get back to you soon.</p>';
+                    contactForm.reset();
+
+                    // Clear success message after 5 seconds
+                    setTimeout(() => {
+                        statusDiv.innerHTML = '';
+                    }, 5000);
+                } catch (error) {
+                    statusDiv.innerHTML = `<p style="color: red;">✗ Error: ${error.message}. Please try again.</p>`;
+                }
+            });
+        }
+
+        // Handle Newsletter Subscription
+        const newsletterForm = document.getElementById('newsletterForm');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const email = document.getElementById('newsletterEmail').value;
+
+                let statusDiv = document.getElementById('newsletterStatus');
+                if (!statusDiv) {
+                    statusDiv = document.createElement('div');
+                    statusDiv.id = 'newsletterStatus';
+                    newsletterForm.appendChild(statusDiv);
+                }
+
+                statusDiv.innerHTML = '<p style="color: blue;">Subscribing...</p>';
+
+                try {
+                    await subscribeNewsletter(email);
+                    statusDiv.innerHTML = '<p style="color: green;">✓ Successfully subscribed to newsletter!</p>';
+                    newsletterForm.reset();
+                    setTimeout(() => {
+                        statusDiv.innerHTML = '';
+                    }, 5000);
+                } catch (error) {
+                    statusDiv.innerHTML = '<p style="color: red;">✗ This email is already subscribed or invalid.</p>';
+                }
+            });
+        }
+
+        // Load dynamic school updates from Supabase
+        async function loadSchoolUpdates() {
+            try {
+                const updates = await getSchoolUpdates();
+                const articlesContainer = document.querySelector('.articles-container');
+
+                if (updates && updates.length > 0 && articlesContainer) {
+                    // Add Supabase updates at the top
+                    updates.forEach(update => {
+                        const updateElement = document.createElement('article');
+                        updateElement.className = 'article-card';
+                        updateElement.setAttribute('data-aos', 'fade-up');
+                        updateElement.innerHTML = `
+                        <div class="article-content">
+                            <h4>📢 ${update.title}</h4>
+                            <div class="meta">${new Date(update.created_at).toLocaleDateString()} • School News</div>
+                            <p>${update.content}</p>
+                        </div>
+                    `;
+                        articlesContainer.insertBefore(updateElement, articlesContainer.firstChild);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading updates:', error);
+            }
+        }
+
+        loadSchoolUpdates();
     </script>
 </body>
+
 </html>

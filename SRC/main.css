@@ -37,6 +37,38 @@ li {
   list-style: none;
 }
 
+/* Application page button styles */
+.cta-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-btn {
+    background: #1a56db;
+    color: white;
+}
+
+.cta-btn.secondary {
+    background: transparent;
+    color: #1a56db;
+    border: 2px solid #1a56db;
+}
+
+.cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cta-btn.secondary:hover {
+    background: #1a56db;
+    color: white;
+}
+
 /* Header Styles */
 header {
   position: sticky;
